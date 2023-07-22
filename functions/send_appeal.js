@@ -51,7 +51,7 @@ exports.handler = async function (event, context) {
     var appeal_channel_id = process.env.APPEALS_CHANNEL;
     var body = {
         embed: {
-            title: "New Ban Appeal Received",
+            title: "Neuer Un-Ban Antrag",
             description: `**Username**: <@${unbanInfo.user_id}> (${unbanInfo.username}#${unbanInfo.user_discriminator})`,
             author: {
                 name: unbanInfo.username,
@@ -72,13 +72,13 @@ exports.handler = async function (event, context) {
             {
                 type: 2,
                 style: 5,
-                label: "Approve and Unban",
+                label: "Annehmen und Entbannen",
                 url: `${data.unban_url}?token=${encodeURIComponent(event.headers.authorization)}`
             },
             {
                 type: 2,
                 style: 5,
-                label: "Deny and Block",
+                label: "Ablehen",
                 url: `${data.deny_and_block_url}?token=${encodeURIComponent(event.headers.authorization)}`
             },
         ]
