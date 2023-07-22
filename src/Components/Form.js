@@ -168,7 +168,7 @@ class Form extends Component {
                                             onExpire={() => this.handleExpiration}/> : null
                                 }
 
-                                <Button variant="contained" type={"submit"}>Submit</Button>
+                                <Button variant="contained" type={"submit"}>Absenden</Button>
                             </div>
                         </form>
                     </Grid>
