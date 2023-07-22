@@ -5,8 +5,8 @@ class Success extends Component {
     render() {
         return (
             <Grid item>
-                <h1 style={{textAlign: "center", color: "#00e676"}}>Success! Your ban appeal has been submitted to the mods!</h1>
-                <h4>Please allow some time for them to review your appeal. Abusing this system will result in a perma-ban.</h4>
+                <h1 style={{textAlign: "center", color: "#00e676"}}>Das hat geklappt! Dein Antrag wird nun von den Mods überprüft!</h1>
+                <h4>Bitte gib uns Zeit deinen Antrag zu überprüfen. Das Ausnutzen dieses Systems führt zu einem perma-ban.</h4>
             </Grid>
         );
     }
