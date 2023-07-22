@@ -23,7 +23,7 @@ class Home extends Component {
                         size={"large"} 
                         className={"button"}
                         >
-                            Login with Discord
+                            Mit Discord Anmelden
                         </Button>
                 </Grid>
             </Grid>
